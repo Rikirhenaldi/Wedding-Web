@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.preciousFont34 {
+  text-align: center;
+  font-family: "Precious";
+  font-size: 34px;
+  color: white;
+  /* color: #61dafb; */
+}
+.poppinsFont {
+  text-align: center;
+  font-family: "Poppins-Bold";
+  font-size: 15px;
+  color: #586032;
+  /* color: #61dafb; */
+}
+
+.logoWrapper {
+  width: 40%;
+  text-align: left;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  /* border-radius: 16px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+section.section1{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../src/assets/bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+div.containerCard{
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 240px 10px 240px;
+  /* background-color: #fff; */
+}
+
+div.cardInvitation{
+  width: 100%;
+  height: 100%;
+  background-image: url('../src/assets/bg1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: aliceblue solid 2px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.titleCard{
+  text-align: center;
+  font-family: "GreatVibes-Regular";
+  font-size: 54px;
+  color: #586032;
+  padding-top: 20px;
+}
+
+h2.coupleName{
+  text-align: center;
+  font-family: "Precious";
+  font-size: 64px;
+  color: #586032;
+}
+
+div.cardBoxRow{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-top: 12px;
+}
+
+.boxLeft{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: "Precious";
+color: #586032;
+font-size: 30px;
+padding-left: 70px;
+}
+
+div.boxRight{
+  width: 50%;
+  height: 100%;
+  display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: "Precious";
+color: #586032;
+font-size: 30px;
+padding-left: 170px;
+}
+
+button.buttonDetail{
+  width: 170px;
+  height: 50px;
+  background-color: #586032;
+  border-radius: 100px;
+  font-family: "Poppins-Bold";
+  font-size: 14px;
+  color: aliceblue;
+  position: relative;
+  top: -35px;
+}
+
+section.section2{
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+.preciousFont24 {
+  text-align: center;
+  font-family: "Precious";
+  font-size: 26px;
+  color: #586032;
+  /* color: #61dafb; */
+}
+  .logoWrapperMobile{
+    width: 60%;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  section.section1Mobile{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../src/assets/bg1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+  div.containerCardMobile{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 30px 10px 30px;
+    /* background-color: #fff; */
+  }
+
+  h1.titleCardMobile{
+    text-align: center;
+    font-family: "GreatVibes-Regular";
+    font-size: 44px;
+    color: #586032;
+    padding-top: 20px;
+  }
+
+  h2.coupleNameMobile{
+    text-align: center;
+    font-family: "Precious";
+    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+  }
+
+  div.boxLeftMobile{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Precious";
+    color: #586032;
+    font-size: 20px;
+    padding-left: 20px;
+    }
+  div.boxRightMobile{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Precious";
+    color: #586032;
+    font-size: 20px;
+    padding-left: 90px;
+    }
+
+  button.buttonDetailMobile{
+    width: 160px;
+    height: 40px;
+    background-color: #586032;
+    border-radius: 100px;
+    font-family: "Poppins-Bold";
+    font-size: 12px;
+    color: aliceblue;
+    position: relative;
+    top: -35px;
+  }
+}
