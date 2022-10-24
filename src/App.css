@@ -175,7 +175,7 @@ section.section2{
   /* color: #61dafb; */
 }
   .logoWrapperMobile{
-    width: 60%;
+    width: 70%;
     text-align: left;
     margin-top: 10px;
   }
@@ -211,6 +211,9 @@ section.section2{
     font-size: 50px;
     color: white;
     padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   div.boxLeftMobile{
@@ -221,7 +224,7 @@ section.section2{
     flex-direction: column;
     font-family: "Precious";
     color: #586032;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 20px;
     }
   div.boxRightMobile{
@@ -232,8 +235,8 @@ section.section2{
     flex-direction: column;
     font-family: "Precious";
     color: #586032;
-    font-size: 20px;
-    padding-left: 90px;
+    font-size: 18px;
+    padding-left: 55px;
     }
 
   button.buttonDetailMobile{
