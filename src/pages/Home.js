@@ -14,7 +14,7 @@ function Home() {
           </div>
         </section>
         <section className='section2'>
-
+          
         </section>
     </div>
   )

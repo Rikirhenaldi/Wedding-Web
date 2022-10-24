@@ -6,7 +6,7 @@
   text-align: center;
   font-family: "Precious";
   font-size: 34px;
-  color: white;
+  color: #586032;
   /* color: #61dafb; */
 }
 .poppinsFont {
@@ -63,6 +63,7 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  z-index: 9;
 }
 
 section.section1{
@@ -236,7 +237,8 @@ section.section2{
     font-family: "Precious";
     color: #586032;
     font-size: 18px;
-    padding-left: 55px;
+    padding-left: 60px;
+    padding-right: 10px;
     }
 
   button.buttonDetailMobile{

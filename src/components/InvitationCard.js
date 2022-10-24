@@ -7,8 +7,8 @@ export default function InvitationCard() {
         <div className='cardInvitation'>
             <h1 className='titleCardMobile titleCard'>Pernikahan</h1>
             <h2 className='coupleNameMobile coupleName'>
-               <span>Makbul</span> 
-               <span>&</span> 
+               <span>Makbul </span> 
+               <span>& </span> 
                 <span>Riana</span>
                 </h2>
             <div className='cardBoxRow'>
