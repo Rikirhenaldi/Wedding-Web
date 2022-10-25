@@ -391,13 +391,15 @@ section.section3{
   div.containerCouple{
     padding-top: 30px;
     flex-direction: column;
-    height: 74%;
+    height: 80%;
   }
   div.boxLeftMale{
     flex-direction: column;
+    justify-content: end;
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 30px;
   }
   div.boxRightFemale{
     flex-direction: column;
@@ -410,7 +412,7 @@ section.section3{
     align-items: center;
   }
   div.NameContainerFemale{
-    padding-right: 0px;
+    padding-left: 0px;
     padding-top: 15px;
     align-items: center;
   }
