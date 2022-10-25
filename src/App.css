@@ -76,7 +76,7 @@ section.section1{
 
 div.containerCard{
   width: 100%;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,14 +155,123 @@ button.buttonDetail{
   top: -35px;
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<section 2>>>>>>>>>>>>>>> */
+
 section.section2{
   width: 100%;
   height: 100vh;
+  background-color: #fff;
+}
+div.beginingPart{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  padding-top: 80px;
 }
 
+h1.greeting{
+  font-family: "Precious";
+  font-size: 54px;
+  color: #586032;
+}
 
+.descriptionFont16{
+  font-family: "Poppins-Bold";
+  font-size: 16px;
+  color: #586032;
+}
 
+h2.weddingDate{
+  font-family: "Poppins-Bold";
+  font-size: 24px;
+  color: #586032;
+  margin-top: 14px;
+}
 
+div.containerCouple{
+  width: 100%;
+  height: 55%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+div.boxLeftMale{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 15px;
+}
+div.boxRightFemale{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 15px;
+}
+div.NameContainerMale{
+  padding-right: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  align-items: right;
+}
+
+div.NameContainerFemale{
+  padding-left: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-items: right;
+}
+
+h1.coupleFullname{
+  font-family: "Precious";
+  font-size: 38px;
+  color: #586032;
+}
+
+h2.familyNameMale{
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins-Bold";
+  font-size: 16px;
+  color: #586032;
+  margin-top: 10px;
+  align-items: flex-end;
+}
+
+h2.familyNameFemale{
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins-Bold";
+  font-size: 16px;
+  color: #586032;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+img.couplePicture{
+  width: 200px;
+  height: 260px;
+  border-radius: 30px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<section 3>>>>>>>>>>>>>>> */
+
+section.section3{
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100vh;
+}
 
 
 
@@ -252,4 +361,76 @@ section.section2{
     position: relative;
     top: -35px;
   }
+
+  /* <<<<<<<<<<<<<<<<<<<<<<section 2>>>>>>>>>>>>>>> */
+  section.section2{
+    height: 120vh;
+  }
+
+  div.beginingPart{
+    padding-top: 10px;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  h1.greeting{
+    font-family: "Precious";
+    font-size: 44px;
+    color: #586032;
+  }
+  .descriptionFont16{
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+  }
+  h2.weddingDate{
+    font-size: 18px;
+  }
+  div.containerCouple{
+    padding-top: 30px;
+    flex-direction: column;
+    height: 74%;
+  }
+  div.boxLeftMale{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  div.boxRightFemale{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  div.NameContainerMale{
+    padding-right: 0px;
+    align-items: center;
+  }
+  div.NameContainerFemale{
+    padding-right: 0px;
+    padding-top: 15px;
+    align-items: center;
+  }
+  h1.coupleFullname{
+    font-size: 28px;
+  }
+  h2.familyNameMale {
+    font-size: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  h2.familyNameFemale {
+    font-size: 12px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  img.couplePicture {
+    width: 270px;
+    height: 260px;
+    border-radius: 30px;
+  }
+
 }
