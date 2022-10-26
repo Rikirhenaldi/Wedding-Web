@@ -3,6 +3,7 @@ import '../index.css'
 import '../App.css'
 import Navbar from '../components/Navbar'
 import InvitationCard from '../components/InvitationCard'
+import CardAcara from '../components/CardAcara'
 import Makbul from '../assets/makbul.png'
 import Riana from '../assets/riana.png'
 
@@ -25,27 +26,44 @@ function Home() {
         <div className='containerCouple'>
           <div className='boxLeftMale'>
             <div className='NameContainerMale'>
-              <h1 className='coupleFullname'>Makbul Azis Setiabudi</h1>
-              <h2 className='familyNameMale'>
-                <span>Putra dari:</span>
-                <span>Ajan & Ai Sukarsih</span>
-              </h2>
-            </div>
-            <div>
-              <img className='couplePicture' src={Makbul} alt="makbul" />
-            </div>
-          </div>
-          <div className='boxRightFemale'>
-            <div>
-              <img className='couplePicture' src={Riana} alt="riana" />
-            </div>
-            <div className='NameContainerFemale'>
               <h1 className='coupleFullname'>Riana Dwiarti</h1>
-              <h2 className='familyNameFemale'>
+              <h2 className='familyNameMale'>
                 <span>Putri dari:</span>
                 <span>Dodo Setiana (Alm) & Titin Haryanti</span>
               </h2>
             </div>
+            <div>
+              <img className='couplePicture' src={Riana} alt="makbul" />
+            </div>
+          </div>
+          <div className='boxRightFemale'>
+            <div>
+              <img className='couplePicture' src={Makbul} alt="riana" />
+            </div>
+            <div className='NameContainerFemale'>
+              <h1 className='coupleFullname'>Makbul Azis Setiabudi</h1>
+              <h2 className='familyNameFemale'>
+                <span>Putra dari:</span>
+                <span>Ajan & Ai Sukarsih</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='section3'>
+      <div className='beginingPart mb-6'>
+          <h1 className='greeting'>Acara</h1>
+          <div className='descripitionWrapper'>
+          <h2 className='descriptionFont16'>Kami Menyampaikan Kabar Bahagia Ini Dan Akan Lengkap Apabila Anda Berkenan Memberikan Doa Restu Kepada Kami Dalam Acara Pernikahan Kami</h2>
+          <h2 className='descriptionFont16 pt-4'>Berikut Ini :</h2>
+          </div>
+        </div>
+        <div className='containerCardAcara'>
+          <div className='cardAcaraWrapper'>
+            <CardAcara Acara={"Akad Nikah"} Hour={"09:00 - 11:00"} Date={'13 November 2022'}/>
+          </div>
+          <div className='cardAcaraWrapper'>  
+            <CardAcara Acara={"Resepsi Pernikahan"} Hour={"11:00 - 15:00"} Date={'13 November 2022'}/>
           </div>
         </div>
       </section>
