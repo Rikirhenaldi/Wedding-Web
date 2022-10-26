@@ -323,7 +323,27 @@ div.cardAcaraWrapper{
   align-items: center;
 }
 
+.mapWrapper{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
 
+/* <<<<<<<<<<<<<<<<<<<<section 4 Web>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+section.section4{
+  width: 100%;
+  height: 100vh;
+  /* background-color: blue; */
+  margin-top: 100vh;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Mobileeee>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media only screen and (max-width: 640px) {
 .preciousFont24 {
@@ -483,7 +503,6 @@ div.cardAcaraWrapper{
     height: 260px;
     border-radius: 30px;
   }
-
   /* <<<<<<<<<<<<<<<<<<<<<<section 3 Mobile>>>>>>>>>>>>>>> */
 
 section.section3{
@@ -514,4 +533,18 @@ div.cardAcaraWrapper{
 .timeBox{
   width: 200px;
 }
+.mapWrapper{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<section 4 Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+section.section4{
+  width: 100%;
+  height: 100vh;
+  margin-top: 40vh;
+}
+
 }
