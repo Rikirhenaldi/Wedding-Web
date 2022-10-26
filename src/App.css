@@ -434,6 +434,7 @@ section.section4{
   /* <<<<<<<<<<<<<<<<<<<<<<section 2>>>>>>>>>>>>>>> */
   section.section2{
     height: 120vh;
+    margin-bottom: 40px;
   }
 
   div.beginingPart{
