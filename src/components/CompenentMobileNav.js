@@ -16,7 +16,7 @@ export default function CompenentMobileNav({Action, Navbarlist, NavbarActive}) {
                         smooth={true}
                         offset={-70}
                         duration={900}>
-                          <button onClick={() => Action(item)}>
+                          <button style={{marginBottom: 14}} onClick={() => Action(item)}>
                             {NavbarActive === item ? 
                             <span style={{color: '#586032', fontFamily: "Poppins-Bold", fontSize: 14}}>{item}</span>
                             :
