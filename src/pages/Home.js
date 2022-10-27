@@ -72,7 +72,7 @@ function Home() {
     }
   }
   return (
-    <div className="App h-screen w-full">
+    <div className="App h-screen w-full overflow-x-hidden">
       <section className='section1Mobile md: section1' id={navList[0]}>
         <Navbar NavList={navList} NavActive={navActive} Action={onHandleNavActive}/>
         <div className='containerCardMobile md: containerCard lg: containerCard'>
