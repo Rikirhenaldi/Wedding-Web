@@ -22,6 +22,9 @@
   text-align: left;
 }
 
+.toggle{
+  display: none;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -402,11 +405,169 @@ section.section4{
 
 .section5{
   width: 100%;
+  height: 70vh;
+}
+.formWrapper{
+  width: 100%;
+  height: 100%;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.formBox{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+  padding: 40px 50px;
+}
+.input{
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.inputWrapper{
+  width: 100%;
+  border: 2px solid #586032;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.buttonWrapper{
+  width: 100%;
+}
+.greenButton{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #586032;
+  border-radius: 20px;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  color: aliceblue;
+}
+.messageAlert{
+  font-family: "Poppins_bold";
+  font-size: 16px;
+  color: aliceblue;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<section 6 Web >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.section6{
+  width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<< FOOTER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.footer{
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  /* background-color: #586032; */
+  position: relative;
+  bottom: 0px;
+}
+.ornament1{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: -50px;
+  top: -20%;
+}
+
+.ornament2{
+  width: 100px;
+  height: 150px;
+  position: relative;
+  right: -94%;
+  top: -70%;
+}
+.undanganDigital{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #586032;
+  font-family: "GreatVibes-Regular";
+  font-size: 44px;
+  position: relative;
+  top: 40%;
 }
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Mobileeee>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media only screen and (max-width: 640px) {
+
+.toggle{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  /* border: 4px solid #586032; */
+  border-radius: 10px;
+  position: relative;
+  top: 6px;
+  right: -15%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+}
+
+.rectangle{
+  width: 100%;
+  height: 4px;
+  background-color: #586032;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.closeButton{
+  font-family: "Poppins-Bold";
+  font-size: 30px;
+  color: aliceblue;
+  position: relative;
+  right: -91%;
+  width: 40px;
+  height: 40px;
+  top: 8px;
+}
+
+.containerNavMobile{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+  background-color: rgb(104, 104, 104);
+  opacity: 95%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.exitWrapper{
+  width: 100%;
+  height: 50px;
+  /* background-color: yellow; */
+}
+.whiteContainer{
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
 .preciousFont24 {
   text-align: center;
   font-family: "Precious";
@@ -475,12 +636,13 @@ section.section4{
     flex-direction: column;
     font-family: "Precious";
     color: #586032;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 60px;
     padding-right: 10px;
     }
 
   button.buttonDetailMobile{
+    margin-top: 40px;
     width: 160px;
     height: 40px;
     background-color: #586032;
@@ -489,7 +651,7 @@ section.section4{
     font-size: 12px;
     color: aliceblue;
     position: relative;
-    top: -35px;
+    top: -25px;
   }
 
   /* <<<<<<<<<<<<<<<<<<<<<<section 2>>>>>>>>>>>>>>> */
@@ -623,5 +785,47 @@ section.section4{
 }
 .iconHeart{
   margin-right: 10px;
+}
+.name{
+  font-size: 12px;
+}
+.ucapan{
+  font-size: 12px;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<section 5 Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.formWrapper{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.greenButton{
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* <<<<<<<<< Section 6 Mobile >>>>>>>>>>>>>>>>> */
+.section6{
+  height: 40vh;
+}
+.ornament1{
+  top: -10%;
+  left: -75px;
+}
+.ornament2{
+  right: -80%;
+  top: -70%;
+}
+.footer{
+  height: 35vh;
+}
+.undanganDigital{
+  top: 60%;
+  font-size: 28px;
+}
+.coupleNameFooter{
+  font-size: 34px;
+  font-family: "Precious";
 }
 }

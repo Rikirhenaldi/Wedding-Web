@@ -1,8 +1,9 @@
 import React from 'react'
 import "../index.css"
 import "../App.css"
+import Link from "react-scroll/modules/components/Link";
 
-export default function InvitationCard() {
+export default function InvitationCard({DirectTo}) {
     return (
         <div className='cardInvitation'>
             <h1 className='titleCardMobile titleCard'>Pernikahan</h1>
@@ -21,7 +22,14 @@ export default function InvitationCard() {
                 </div>
             </div>
             <div className=''>
+            <Link
+              to={DirectTo}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={900}>
                 <button className='buttonDetailMobile md: buttonDetail'>Detail Undangan</button>
+            </Link>
             </div>
         </div>
     )
