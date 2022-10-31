@@ -3,7 +3,7 @@ import "../index.css"
 import "../App.css"
 import Link from "react-scroll/modules/components/Link";
 
-export default function InvitationCard({DirectTo}) {
+export default function InvitationCard({DirectTo, Action}) {
     return (
         <div className='cardInvitation'>
             <h1 className='titleCardMobile titleCard'>Pernikahan</h1>
@@ -28,7 +28,7 @@ export default function InvitationCard({DirectTo}) {
               smooth={true}
               offset={-70}
               duration={900}>
-                <button className='buttonDetailMobile md: buttonDetail'>Detail Undangan</button>
+                <button className='buttonDetailMobile md: buttonDetail' onClick={Action}>Detail Undangan</button>
             </Link>
             </div>
         </div>

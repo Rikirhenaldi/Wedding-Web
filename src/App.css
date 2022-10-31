@@ -502,9 +502,53 @@ section.section4{
   position: relative;
   top: 40%;
 }
+
+.chevronUpButton{
+  display: none;
+}
+
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Mobileeee>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 @media only screen and (max-width: 640px) {
+
+.SoundControl{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #586032;
+  /* border: 2px solid #586032; */
+  position: fixed;
+  bottom: 110px;
+  right: 10px;
+  z-index: 9;
+}
+.chevronUpButton{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #586032;
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  z-index: 9;
+}
+.iconButton{
+  width: 35px;
+  height: 35px;
+}
+.iconButton2{
+  width: 20px;
+  height: 20px;
+}
 
 .toggle{
   display: flex;
