@@ -59,7 +59,12 @@ function Home() {
         setNavActive(navList[0])
       }
       else if (lastScrollY > 550 && lastScrollY < 1270) {
-        setNavActive(navList[1])
+        if(activatedSound === false && isPlaying === false){
+          setNavActive(navList[1])
+          playMusic()
+        }else{
+          setNavActive(navList[1])
+        }
       }
       else if (lastScrollY > 1270 && lastScrollY < 2579) {
         setNavActive(navList[2])
