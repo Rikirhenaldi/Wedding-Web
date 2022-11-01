@@ -8,9 +8,9 @@ export default function InvitationCard({DirectTo, Action}) {
         <div className='cardInvitation'>
             <h1 className='titleCardMobile titleCard'>Pernikahan</h1>
             <h2 className='coupleNameMobile coupleName'>
-               <span>Makbul </span> 
+               <span>Riana </span> 
                <span>& </span> 
-                <span>Riana</span>
+                <span>Makbul</span>
                 </h2>
             <div className='cardBoxRow'>
                 <div className='boxLeftMobile boxLeft'>

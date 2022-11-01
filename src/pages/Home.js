@@ -13,7 +13,7 @@ import { ucapan } from '../data/data'
 import Slide from 'react-reveal/Slide';
 import Flip from 'react-reveal/Flip';
 import ReactHowler from 'react-howler'
-import Audio_wedding from '../assets/audioclips/wedding.mp3'
+import Audio_wedding from '../assets/audioclips/wedding2.mp3'
 import BackToUp from '../components/BackToUp'
 import SoundButton from '../components/SoundButton'
 
