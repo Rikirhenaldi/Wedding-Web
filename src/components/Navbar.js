@@ -8,7 +8,7 @@ export default function Navbar({NavList, NavActive, Action}) {
   const [activeToggle, setActiveToggle] = useState(false)
   return (
     <ul className='navbar flex w-full h-14 pb-6 pr-16 pt-6 justify-between md:navbar flex w-full h-16 md:pl-6 pb-6 pr-16 pt-2 justify-between'>
-      <div className='preciousFont24 ml-4 logoWrapperMobile preciousFont34 logoWrapper'>Makbul & Riana</div>
+      <div className='preciousFont24 ml-4 logoWrapperMobile preciousFont34 logoWrapper'>Riana & Makbul</div>
       {NavList.map((item) => {
         return (
           <li className='App hidden md:flex poppinsFont pt-4 lg:flex poppinsFont pt-4 xl:flex poppinsFont pt-4 '>
